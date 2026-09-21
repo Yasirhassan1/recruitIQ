@@ -1,0 +1,30 @@
+{
+  "name": "recruitiq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "biome:check": "biome check ./front-end/src",
+    "biome:fix": "biome check ./front-end/src --write",
+    "biome:format": "biome format ./front-end/src --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yasirhassan1/recruitIQ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Yasirhassan1/recruitIQ/issues"
+  },
+  "homepage": "https://github.com/Yasirhassan1/recruitIQ#readme",
+  "devDependencies": {
+    "@biomejs/biome": "2.5.14",
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "lefthook": "^2.1.14"
+  }
+}
