@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Yasirhassan1/recruitIQ/issues"
   },
@@ -24,6 +24,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.5.14",
     "@commitlint/cli": "^21.2.3",
-    "@commitlint/config-conventional": "^21.2.3"
+    "@commitlint/config-conventional": "^21.2.3",
+    "lefthook": "^2.1.14"
   }
 }
