@@ -3,6 +3,7 @@ pre-commit:
   commands:
     fix: 
       run: npm run biome:fix
+      stage_fixed: true
       exclude: "node_modules"
 
 commit-msg:
